@@ -1,0 +1,23 @@
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/portrait-mature-therapist-sitting-table-looking-camera_1098-18156.jpg?w=1380&t=st=1688367922~exp=1688368522~hmac=29971e2f9fb3f2e609f37efe3567603a8be651ae4888a3589babdf088c63c85b');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .form {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .form:hover {
+    transform: translateY(-5px);
+  }
+  
